@@ -1,0 +1,56 @@
+#drop-area {
+    border: 1px dashed #6784f4f2;
+    ;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    min-height: 100px;
+    position: relative;
+    /* Set a minimum height to contain the uploaded file */
+}
+
+#file-input {
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+}
+
+#uploaded-files {
+    margin-top: 10px;
+}
+
+.file-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.change-btn {
+    cursor: pointer;
+    color: blue;
+}
+
+/* Adjustments for modal */
+.modal-body {
+    max-height: 500px;
+    overflow-y: auto;
+}
+
+.form-step {
+    display: none;
+}
+
+.form-step.active {
+    display: block;
+}
+
+.step-buttons {
+    margin-top: 10px;
+}
